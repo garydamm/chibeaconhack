@@ -15,7 +15,7 @@
 		7E5DCC001AAB4E9F00146A88 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E5DCBFE1AAB4E9F00146A88 /* LaunchScreen.xib */; };
 		7E5DCC0C1AAB4E9F00146A88 /* chibeaconhackTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E5DCC0B1AAB4E9F00146A88 /* chibeaconhackTests.m */; };
 		7E5DCC161AAB4F0900146A88 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5DCC151AAB4F0900146A88 /* libz.dylib */; };
-		7E5DCC181AAB4F3800146A88 /* Gimbal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5DCC171AAB4F3800146A88 /* Gimbal.framework */; };
+		7E5DCC1D1AABA87300146A88 /* Gimbal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E5DCC1C1AABA87300146A88 /* Gimbal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,7 +43,7 @@
 		7E5DCC0A1AAB4E9F00146A88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E5DCC0B1AAB4E9F00146A88 /* chibeaconhackTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = chibeaconhackTests.m; sourceTree = "<group>"; };
 		7E5DCC151AAB4F0900146A88 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		7E5DCC171AAB4F3800146A88 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gimbal.framework; path = ../gimbalsdk_2.8.1_ios/Frameworks/Gimbal.framework; sourceTree = "<group>"; };
+		7E5DCC1C1AABA87300146A88 /* Gimbal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Gimbal.framework; path = chibeaconhack/Gimbal.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E5DCC1D1AABA87300146A88 /* Gimbal.framework in Frameworks */,
 				7E5DCC161AAB4F0900146A88 /* libz.dylib in Frameworks */,
-				7E5DCC181AAB4F3800146A88 /* Gimbal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,7 +129,7 @@
 		7E5DCC191AAB7EB000146A88 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7E5DCC171AAB4F3800146A88 /* Gimbal.framework */,
+				7E5DCC1C1AABA87300146A88 /* Gimbal.framework */,
 				7E5DCC151AAB4F0900146A88 /* libz.dylib */,
 			);
 			name = Frameworks;
@@ -369,6 +369,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/garyd/workspace/sandbox/ChiBeaconHack/gimbalsdk_2.8.1_ios/Frameworks,
+					"$(PROJECT_DIR)/chibeaconhack",
 				);
 				INFOPLIST_FILE = chibeaconhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -383,6 +384,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/garyd/workspace/sandbox/ChiBeaconHack/gimbalsdk_2.8.1_ios/Frameworks,
+					"$(PROJECT_DIR)/chibeaconhack",
 				);
 				INFOPLIST_FILE = chibeaconhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -443,6 +445,7 @@
 				7E5DCC111AAB4E9F00146A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7E5DCC121AAB4E9F00146A88 /* Build configuration list for PBXNativeTarget "chibeaconhackTests" */ = {
 			isa = XCConfigurationList;
@@ -451,6 +454,7 @@
 				7E5DCC141AAB4E9F00146A88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,14 +7,13 @@ Simplest Gimbal Integration Example on iOS.
 
 @interface AppDelegate () <GMBLPlaceManagerDelegate>
 @property (nonatomic) GMBLPlaceManager *placeManager;
-
 @end
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    [Gimbal setAPIKey:@"0e49e70b-b864-4075-934b-353c5db5d04b" options:nil];
+    
+    [Gimbal setAPIKey:@"YOUR-APIKEY-HERE" options:nil];
     
     self.placeManager = [GMBLPlaceManager new];
     self.placeManager.delegate = self;

@@ -1,6 +1,11 @@
 # chibeaconhack
 Simplest Gimbal Integration Example on iOS.
 
+Before you create your iOS application first create your Gimbal account and create an application to generate a Gimbal API Key here:
+[https://manager.gimbal.com/](https://manager.gimbal.com/)
+
+Then build the application.
+
 ```objective-c
 #import <Gimbal/Gimbal.h>
 #import "AppDelegate.h"

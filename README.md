@@ -1,7 +1,7 @@
 # chibeaconhack
 Simplest Gimbal Integration Example on iOS.
 
-'''objective-c
+```objective-c
 #import <Gimbal/Gimbal.h>
 #import "AppDelegate.h"
 
@@ -36,4 +36,4 @@ Simplest Gimbal Integration Example on iOS.
 }
 
 @end
-'''
+```

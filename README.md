@@ -1,5 +1,5 @@
 # chibeaconhack
-Simplest Gimbal Integration Example on iOS.
+Simplest Gimbal Integration Example on iOS. After setting up your application, place(s) and messaging on Gimbal Manager below will yield **Place Events** and **Local Notifications**.
 
 Before you create your iOS application first create your Gimbal account and create an application to generate a Gimbal API Key here:
 [https://manager.gimbal.com/](https://manager.gimbal.com/)
